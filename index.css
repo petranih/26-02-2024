@@ -14,3 +14,33 @@
         color: green;
     } */
 }
+
+body{
+    font-family: merriweather-regular-italic;
+}
+
+@media (max-width: 600px){
+    .card{
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+}
+
+
+.left-section{
+    float: left;
+
+}
+
+.left-section img{
+    object-fit: cover;
+}
+
+.right-section{
+    float: right;
+}
+
+.right-section img{
+    object-fit: cover;
+}
