@@ -1,0 +1,16 @@
+h1{
+    font-size: 30px;
+    color: blue;
+}
+@media (max-width: 600px) {
+    h1{
+        font-size: 6px;
+        color: tan;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 800px) {
+    h1{
+        color: green;
+    }
+}
